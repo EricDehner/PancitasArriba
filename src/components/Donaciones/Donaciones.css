@@ -1,4 +1,28 @@
+/* MOBILE */
+
+.mobile_donations{
+    padding: 0 1rem;
+}
+
+/* DESSKTOP */
 .donations {
     width: 100%;
-    height: 2000px;
 }
+
+.donations_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px 60px;
+    justify-content: center;
+    margin: 3rem auto 4rem;
+    width: 80%;
+    max-width: 1200px;
+}
+
+
+
+.donations_title{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+

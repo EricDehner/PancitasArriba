@@ -15,16 +15,22 @@
     justify-content: center;
     align-items: center;
     background-color: #B5CED3;
-    transition: all 0.5s ease-in-out;
+}
+
+.mobile_navBar-menu {
+    position: absolute;
+    right: 0;
 }
 
 .mobile_navContainer {
     background-color: #B5CED3;
-    width: 90%;
+    width: 40px;
     max-width: 1440px;
     display: flex;
+    position: absolute;
     align-items: center;
     z-index: 10;
+    left: 0;
     margin: auto;
 }
 
@@ -108,10 +114,15 @@
     position: relative;
 }
 
-.mobile_navLogoS {
+
+
+.mobile_navLogoS-container {
     position: relative;
     left: 0rem;
     top: 8rem;
+}
+
+.mobile_navLogoS {
     width: 107px;
     height: 107px;
 }
@@ -250,7 +261,6 @@
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-    transition: all 0.5s ease-in-out;
     margin: auto;
 }
 
@@ -358,7 +368,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 30%;
         margin-right: 50px;
     }
 

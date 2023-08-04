@@ -25,10 +25,10 @@ const Nav = () => {
     return (
       <section className="mobile_navPosition">
         <div className="mobile_position">
-          <div className="mobile_navContainer">
+          <Link to="index" spy={true} smooth={true} offset={0} duration={800} className="mobile_navContainer">
             <img className="mobile_navLogoL" src={Logo} alt="logo" />
-          </div>
-          <button onClick={toggleMenu}>
+          </Link>
+          <button onClick={toggleMenu} className="mobile_navBar-menu">
             <img src={Menu} alt="menu" />
           </button>
         </div>
@@ -44,7 +44,9 @@ const Nav = () => {
                 alt="close menu"
               />
             </button>
-            <img className="mobile_navLogoS" src={Logo} alt="logo" />
+            <Link to="index" spy={true} smooth={true} offset={0} duration={800} onClick={toggleMenu} className="mobile_navLogoS-container">
+              <img className="mobile_navLogoS" src={Logo} alt="logo" />
+            </Link>
             <ul className="mobile_menu_navLista">
               <li>
                 <Link
@@ -64,7 +66,7 @@ const Nav = () => {
                   to="donaciones"
                   spy={true}
                   smooth={true}
-                  offset={-75}
+                  offset={-100}
                   duration={700}
                   className="mobile_menu_navLink"
                   onClick={toggleMenu}
