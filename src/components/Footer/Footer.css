@@ -1,0 +1,13 @@
+.footer{
+    background-color: #080c0d5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+}
+.footer_copyright{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    color: rgba(0, 0, 0, 0.471);
+}
