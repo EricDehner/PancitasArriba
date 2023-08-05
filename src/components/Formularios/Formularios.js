@@ -11,13 +11,13 @@ const Formularios = () => {
                     <a rel="noreferrer" target="_blank" href="https://docs.google.com/forms/d/1xWPpMX3tNHORiES69c0BMpANv8AYHY25BTVHyUI2Rxo" className="mobileForm_content-mp">
                         <div className="mobileForm_content-card">
                             <img src={Icon} alt="" className="mobileForm_content-card--img" />
-                            <p className="mobileForm_content-card--price">Transito</p>
+                            <p className="mobileForm_content-card--price">Tránsito</p>
                         </div>
                     </a>
                     <a rel="noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeuWfmHcynNyyQgYndTs-3CIuWoLfTTtNOPtdJ3Yyn9kf6DjA/viewform?usp=sf_link" className="mobileForm_content-mp">
                         <div className="mobileForm_content-card">
                             <img src={Icon} alt="" className="mobileForm_content-card--img" />
-                            <p className="mobileForm_content-card--price">Adoptar</p>
+                            <p className="mobileForm_content-card--price">Adopción</p>
                         </div>
                     </a>
                 </div>
