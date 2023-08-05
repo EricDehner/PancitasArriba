@@ -21,7 +21,7 @@ const Nav = () => {
 
   rotate ? (document.body.style.overflow = "hidden") : (document.body.style.overflow = "auto");
 
-  if (window.innerWidth <= 425) {
+  if (window.innerWidth <= 768) {
     return (
       <section className="mobile_navPosition">
         <div className="mobile_position">
@@ -72,6 +72,19 @@ const Nav = () => {
                   onClick={toggleMenu}
                 >
                   DONACIONES
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="preguntas"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                  className="mobile_menu_navLink"
+                  onClick={toggleMenu}
+                >
+                  FAQ
                 </Link>
               </li>
             </ul>

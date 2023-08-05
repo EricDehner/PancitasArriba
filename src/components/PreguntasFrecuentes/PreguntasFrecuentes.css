@@ -1,0 +1,84 @@
+.preguntasFrecuentes {
+    margin: 0 0 3.5rem 0;
+}
+
+.preguntasFrecuentes_title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    padding: 1.5rem 0 3.5rem;
+}
+
+.preguntasFrecuentes_content {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 1rem;
+    padding: 0 0 .8rem 0;
+}
+
+.preguntasFrecuentes_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .8rem auto 0;
+    border: 1px solid #07143A;
+    border-radius: 50px;
+    height: 31px;
+    width: 144px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.preguntasFrecuentes_button-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #07143A;
+    padding-right: 1rem;
+}
+
+.preguntasFrecuentes_button-img {
+    transition: all .15s ease-in-out;
+}
+
+.preguntasFrecuentes_button-img--nonactive {
+    transform: rotate(180deg);
+    transition: all .15s ease-in-out;
+}
+
+@media screen and (max-width: 469px) {
+    .preguntasFrecuentes_title {
+        padding: 0 0 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .preguntasFrecuentes_content {
+        width: 80%;
+        max-width: 1440px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 58, 0.173);        border-radius: 10px;
+        margin: 0 auto;
+        padding: 0 0 .8rem 0;
+    }
+
+    .accordion_stick {
+        height: 1px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.38);
+    }
+
+    .preguntasFrecuentes_title {
+        font-size: 26px;
+        margin: 2rem 0 0;
+    }
+}
